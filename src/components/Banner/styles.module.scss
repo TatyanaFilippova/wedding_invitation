@@ -41,10 +41,39 @@
   flex-direction: column;
   position: absolute;
   top: 220px;
-  right: 40%;
+  right: 42%;
   z-index: 1000;
-  font-size: 40px;
+  font-size: 36px;
   font-family: var(--font-date);
   color: white;
   text-shadow: 0 1px 0 var(--color-accent);
+}
+
+.wrapperText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  position: relative;
+}
+
+.line {
+  position: absolute;
+  bottom: -40px;
+}
+
+.titleText {
+  font-family: var(--font-accent);
+  font-size: 40px;
+  color: var(--color-text);
+  margin-top: 100px;
+}
+
+.text {
+  font-family: var(--font-normal);
+  font-size: 14px;
+  color: var(--color-accent);
+  width: 76%;
+  text-align: center;
 }
