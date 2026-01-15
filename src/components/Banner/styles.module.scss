@@ -1,0 +1,50 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.title {
+  font-family: var(--font-accent);
+  font-weight: normal;
+  font-size: 40px;
+  text-align: center;
+  color: var(--color-text);
+  margin-top: 10px;
+}
+
+.img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.gradient {
+  position: absolute;
+  z-index: 1000;
+  height: 100px;
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    rgb(255, 255, 255) 0%,
+    rgba(255, 255, 255, 0.8) 25%,
+    rgba(255, 255, 255, 0.4) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.shell {
+  position: relative;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 220px;
+  right: 40%;
+  z-index: 1000;
+  font-size: 40px;
+  font-family: var(--font-date);
+  color: white;
+  text-shadow: 0 1px 0 var(--color-accent);
+}
